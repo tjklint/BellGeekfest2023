@@ -3,93 +3,163 @@
 }
 
 body{
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(#452d01, #de9307, #ffa600);
-    background-attachment: fixed;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#452d01, #de9307, #ffa600);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 header {
-    background-color: #232b2b;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-  
-  #logo {
-    width: 40px; 
-    height: 40px; 
-    margin-right: 10px;
-    border: 2px solid aliceblue;
-    border-radius: 5px; 
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
+  background-color: #232b2b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#logo {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px;
+  border: 2px solid aliceblue;
+  border-radius: 5px; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 
 .center {
-    border: 5px solid;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 50px);
-    padding: 20px;
-    width: 50%;
-    background-color: white;
+  border: 5px solid;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50px);
+  padding: 20px;
+  width: 50%;
+  background-color: white;
 }
 
 .imageAndBlurbContainer{
-    display:flex; 
-    justify-content: center; 
-    justify-content: space-around; 
-    background-color: white;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 50px);
-    border: 5px solid black;
+  display:flex; 
+  justify-content: center; 
+  align-items: center;
+  background-color: white;
+  border: 5px solid black;
+  margin-top: 20%;
+  width: 80%;
 }
 
 .imageAndBlurb {
-    display:flex;
-    flex-direction: column;
-    margin:70px;
-    margin-bottom: 10px;
+  display:flex;
+  flex-direction: column;
+  margin:5%;
+  width: 20%;
+  margin-bottom: 10px;
 }
 
 .vl {
-    margin-top:30px;
-    border-left: 3px solid black;
-    height: 400px;
+  margin-top:30px;
+  border-left: 3px solid black;
+  height: 20rem;
 }
 
 .moreInfo {
-    display:flex; 
-    justify-content: center; 
-    flex-direction: column;
-    background-color: white;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 596px);
-    border: 5px solid black;
-    border-top: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border: 5px solid black;
+  border-top: 0px;
+  width: 80%; 
+}
+
+.dropdown{
+  display:flex;
+  justify-content: center;
+  height: 35px;
+  padding: 10px;
+}
+
+#companyDropdown{
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#infoForm{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#infoForm .inputField {
+  border: 1px solid black;
+  border-radius: 4px;
+  flex: 0 0 45%;
+  margin: 1%;
+  text-align: center;
+}
+
+#infoForm > :last-child {
+  flex-basis: 100%;
+  margin-top: 2%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+#privacyForm{
+  margin-top: 20%;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+li a {
+  text-decoration: none;
+  color: #3366CC;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#moreInfo{
+  display:flex;
+  flex-direction: column;
+}
+
+#TJMore, #DylanMore, #GriffinMore{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left:1%;
+  padding-right:1%;
+}
+
+#aboutMe{
+  width: 75%;
 }
