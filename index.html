@@ -18,21 +18,12 @@
         <h1>
             PrivacyXpresso <!--Privacy Xpresso-->
         </h1>
-        <select name="companies" id="companies">
-			<option value="" selected disabled hidden>Select a company</option>
-			<option value="spotify" id="spotify">Spotify</option>
-			<option value="netflix" id="netflix">Netflix</option>
-			<option value="starbucks" id="starbucks">Starbucks</option>
-			<option value="timHortons" id="timHortons">Tim Hortons</option>
-			<option value="tesla" id="tesla">Tesla</option>
-            <!--Put in company options here-->
-        </select>
-        <form>
-            <input type="text" id="name">
-            <input type="text" id="email">
+        <select id="companyDropdown" required>
+            <option disabled selected value>Select a Company</option>
+        </select><br>
+        <form id="infoForm" onsubmit="return false;">
         </form>
-        <p id="emailOutput">
-            <!--Email output-->
+        <p id="emailBody">
         </p>
     </div>
     <footer>
