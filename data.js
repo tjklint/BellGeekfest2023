@@ -24,6 +24,7 @@ export const templates = [
         \n\n\
         Sincerely\,\n\
         [Full_Name] [Email_Address]",
-        keys: ["[Email_Address]", "[Spotify_Account_Id]", "[Spotify_Username]", "[Full_Name]"]
+        keys: ["[Email_Address]", "[Spotify_Account_Id]", "[Spotify_Username]", "[Full_Name]"],
+        fieldNames: ["Email Address", "Spotify Account Id", "Spotify Username", "Full Name"],
     }
 ];
