@@ -7,17 +7,24 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Privacy Xpresso</title>
     <script type="module" src="./main.js"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<header>
 
     </header>
-    <div id="privacyForm">
+    <div id="privacyForm" class="center" style>
         <h1>
-            <!--Privacy Xpresso-->
+            PrivacyXpresso <!--Privacy Xpresso-->
         </h1>
-        <select>
+        <select name="companies" id="companies">
+			<option value="" selected disabled hidden>Select a company</option>
+			<option value="spotify" id="spotify">Spotify</option>
+			<option value="netflix" id="netflix">Netflix</option>
+			<option value="starbucks" id="starbucks">Starbucks</option>
+			<option value="timHortons" id="timHortons">Tim Hortons</option>
+			<option value="tesla" id="tesla">Tesla</option>
             <!--Put in company options here-->
         </select>
         <form>
