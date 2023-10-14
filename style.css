@@ -10,51 +10,86 @@ body{
     background-attachment: fixed;
 }
 
-.center {
-  border: 5px solid;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 50px);
-  padding: 20px;
-  width: 50%;
-  background-color: white;
-}
-
 header {
-  background-color: #232b2b;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15%;
-  padding-right: 15%;
+    background-color: #232b2b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  #logo {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 5px; 
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+.center {
+    border: 5px solid;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50px);
+    padding: 20px;
+    width: 50%;
+    background-color: white;
 }
 
-#logo {
-  width: 40px; /* Adjust the size as needed */
-  height: 40px; /* Adjust the size as needed */
-  margin-right: 10px;
-  border: 2px solid aliceblue; /* Add a white border around the image */
-  border-radius: 5px; /* Add rounded corners to the border */
+.imageAndBlurbContainer{
+    display:flex; 
+    justify-content: center; 
+    justify-content: space-around; 
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50px);
+    border: 5px solid black;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
+.imageAndBlurb {
+    display:flex;
+    flex-direction: column;
+    margin:70px;
+    margin-bottom: 10px;
 }
 
-nav li {
-  margin-right: 20px;
+.vl {
+    margin-top:30px;
+    border-left: 3px solid black;
+    height: 400px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-/* Change link color on hover */
-nav a:hover {
-  text-decoration: underline;
+.moreInfo {
+    display:flex; 
+    justify-content: center; 
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 596px);
+    border: 5px solid black;
+    border-top: 0px;
 }
