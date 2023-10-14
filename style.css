@@ -1,3 +1,7 @@
+* {
+  font-family: 'mukta', Helvetica, sans-serif;
+}
+
 body{
     height: 100%;
     margin: 0;
@@ -9,11 +13,48 @@ body{
 .center {
   border: 5px solid;
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50px);
   padding: 20px;
   width: 50%;
-  height: 70%;
   background-color: white;
+}
+
+header {
+  background-color: #232b2b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#logo {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  margin-right: 10px;
+  border: 2px solid aliceblue; /* Add a white border around the image */
+  border-radius: 5px; /* Add rounded corners to the border */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Change link color on hover */
+nav a:hover {
+  text-decoration: underline;
 }
