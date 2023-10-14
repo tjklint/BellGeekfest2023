@@ -31,6 +31,22 @@ header {
   margin-right: 10px;
   border: 2px solid aliceblue;
   border-radius: 5px; 
+
+
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+#site-title {
+  margin-left: 10px;
+  /* Adjust the margin as needed */
+  font-weight: bold;
+  font-size: 20px;
+  /* Adjust the font size as needed */
 }
 
 nav ul {
@@ -48,6 +64,49 @@ nav a {
 }
 
 nav a:hover {
+  text-decoration: underline;
+}
+
+/* Add these styles for the footer */
+footer {
+  background-color: #232b2b;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width:100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#footer-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15%;
+}
+
+#footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15%;
+}
+
+#footer-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#footer-content a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#footer-content a:hover {
   text-decoration: underline;
 }
 
@@ -76,13 +135,12 @@ nav a:hover {
   flex-direction: column;
   margin:5%;
   width: 20%;
-  margin-bottom: 10px;
-}
 
 .vl {
   margin-top:30px;
   border-left: 3px solid black;
   height: 20rem;
+
 }
 
 .moreInfo {
@@ -162,4 +220,9 @@ li a:hover {
 
 #aboutMe{
   width: 75%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 596px);
+  border: 5px solid black;
+  border-top: 0px;
 }
