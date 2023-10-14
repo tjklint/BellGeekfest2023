@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Privacy Xpresso</title>
+	<title>PrivacyXpresso</title>
     <script type="module" src="./main.js"></script>
 	<link rel="stylesheet" href="style.css">
 
@@ -29,14 +29,15 @@
             </ul>
         </nav>
     </header>
-
-    <div id="privacyForm" class="center" style>
-        <h1>
+    <div id="privacyForm" class="center">
+        <h1 style="text-align: center;">
             PrivacyXpresso <!--Privacy Xpresso-->
         </h1>
-        <select id="companyDropdown" required>
-            <option disabled selected value>Select a Company</option>
-        </select><br>
+        <div class="dropdown">
+            <select id="companyDropdown" style="text-align: center;" required>
+                <option disabled selected hidden>Select a Company</option>
+            </select><br>
+        </div>
         <form id="infoForm" onsubmit="return false;">
         </form>
         <p id="emailBody">
