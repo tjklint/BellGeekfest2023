@@ -26,5 +26,32 @@ export const templates = [
         [Full_Name] [Email_Address]",
         keys: ["[Email_Address]", "[Spotify_Account_Id]", "[Spotify_Username]", "[Full_Name]"],
         fieldNames: ["Email Address", "Spotify Account Id", "Spotify Username", "Full Name"],
+    },
+    {
+        name: "Netflix",
+        message: "Dear Netflix Data Protection Team,\
+        \n\
+        I trust this message finds you well. I am writing to formally request the deletion of the personal information that Netflix has collected as described in your Privacy Statement. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
+        \n\
+        The categories of personal information I am requesting for deletion are as follows:\n\
+        Information provided to Netflix, including my name, email address, payment method(s), telephone number, and other identifiers (such as an in-game name).\n\
+        Information collected automatically, such as my activity on the Netflix service, interactions with emails and texts, device IDs, and information gathered through the use of cookies and web beacons.\
+        Information obtained from Partners, which may include search queries, service activation information, and unique identifiers.\
+        Information from other sources, including data provided by service providers, security service providers, payment service providers, Advertisers, Ad Service Providers, Ad Measurement Companies, online and offline information providers, publicly-available sources, and third-party services for Netflix games.\
+        \n\n\
+        I request that you delete this information as per the provisions outlined in your Privacy Statement and in accordance with relevant data protection regulations. This request encompasses the complete and irreversible removal of the specified personal information from your records, including any third-party entities with whom you may have shared such data. My Account ID is: [Account_Id]\
+        \n\n\
+        Furthermore, I wish to emphasize the importance of adhering to the appropriate legal and ethical standards in safeguarding my privacy. As per data protection regulations, you are hereby notified that you have 45 days from the date of this communication to comply with this request.\
+        \n\n\
+        I anticipate your prompt response to confirm that my request for data deletion is in progress, and I look forward to receiving formal notification once the process has been successfully executed.\
+        \n\n\
+        Please consider this request as a formal and legally binding request to delete my personal information, and I trust that Netflix will handle this matter with the utmost professionalism.\
+        \n\n\
+        Thank you for your attention to this matter.\
+        \n\n\
+        Sincerely,\
+        [Full_Name] [Email_Address]",
+        keys: ["[Account_Id]", "[Full_Name]", "[Email_Address]"],
+        fieldNames: ["Account Id", "Full Name", "Email Address"],
     }
 ];
