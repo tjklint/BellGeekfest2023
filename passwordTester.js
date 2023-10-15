@@ -84,3 +84,19 @@ function displayPasswordResults(password){
 
     resultsText.innerText = `It would take a ${hackerLevel.value}, ${timeToCrack} ${timeMeasurements[timeUnit].name} to hack your password`;
 }
+
+let hidePass = document.getElementById("togglePassword");
+
+function togglePass()
+{
+    if (passwordField.type == "text")
+    {
+        passwordField.type = "password";
+    }
+    else
+    {
+        passwordField.type = "text";
+    }
+}
+
+hidePass.addEventListener("click",togglePass);
