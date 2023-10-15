@@ -15,11 +15,10 @@ header {
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 15%;
-  padding-right: 15%;
+  width: 100%;
 }
 
 #logo {
@@ -69,8 +68,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  width:100%;
+  margin-top: auto;
+  align-self: flex-end;
+  width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -106,13 +106,11 @@ footer {
 }
 
 .center {
-  border: 5px solid;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 50px);
-  padding: 20px;
-  width: 50%;
   background-color: white;
+  border: 5px solid;
+  width: 50%;
+  padding-top:3%;
+  margin-top:5%;
 }
 
 .imageAndBlurbContainer{
@@ -121,7 +119,7 @@ footer {
   align-items: center;
   background-color: white;
   border: 5px solid black;
-  margin-top: 20%;
+  margin-top: 5%;
   width: 80%;
 }
 
@@ -183,10 +181,6 @@ footer {
   margin-right: 45%;
 }
 
-#privacyForm{
-  margin-top: 20%;
-}
-
 ul{
   list-style-type: none;
   padding: 0;
@@ -217,4 +211,11 @@ li a:hover {
 
 #aboutMe {
   width: 75%;
+}
+
+.aboutUs {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
 }
