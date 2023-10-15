@@ -2,15 +2,12 @@
   font-family: 'mukta', Helvetica, sans-serif;
 }
 
-body{
+body {
+  height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-image: linear-gradient(#452d01, #de9307, #ffa600);
   background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
 }
 
 header {
@@ -31,7 +28,7 @@ header {
   margin-right: 10px;
   border: 2px solid aliceblue;
   border-radius: 5px; 
-
+}
 
 #logo-container {
   display: flex;
@@ -43,10 +40,8 @@ header {
 
 #site-title {
   margin-left: 10px;
-  /* Adjust the margin as needed */
   font-weight: bold;
   font-size: 20px;
-  /* Adjust the font size as needed */
 }
 
 nav ul {
@@ -135,6 +130,8 @@ footer {
   flex-direction: column;
   margin:5%;
   width: 20%;
+  margin-bottom: 10px;
+}
 
 .vl {
   margin-top:30px;
@@ -218,11 +215,6 @@ li a:hover {
   padding-right:1%;
 }
 
-#aboutMe{
+#aboutMe {
   width: 75%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 596px);
-  border: 5px solid black;
-  border-top: 0px;
 }
