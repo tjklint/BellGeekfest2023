@@ -1,7 +1,13 @@
 export const templates = [
     {
         name: "Spotify",
-        message: "Dear Spotify Data Protection Team,\
+        message: 
+        "Email To: privacy@spotify.com\n\
+        Subject: Formal Request for Deletion of Personal Information\
+        \n\n\
+         --\
+        \n\n\
+        Dear Spotify Data Protection Team,\
         \n\
         I hope this message finds you well. I am writing to formally request the revocation and deletion of my personal data held by Spotify. I value my privacy and wish to exercise my rights under data protection regulations to have my data removed from your records\.\
         Below is a list of the specific data categories I would like to have revoked and deleted\:\
@@ -29,7 +35,13 @@ export const templates = [
     },
     {
         name: "Netflix",
-        message: "Dear Netflix Data Protection Team,\
+        message: 
+        "Email To: privacy@netflix.com\n\
+        Subject: Formal Request for Deletion of Personal Information\
+        \n\n\
+         --\
+        \n\n\
+        Dear Netflix Data Protection Team,\
         \n\
         I trust this message finds you well. I am writing to formally request the deletion of the personal information that Netflix has collected as described in your Privacy Statement. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
         \n\
@@ -56,7 +68,13 @@ export const templates = [
     },
     {
         name: "Starbucks",
-        message: "Dear Starbucks Data Protection Team,\
+        message: 
+        "Email To: privacy@starbucks.com\n\
+        Subject: Formal Request for Deletion of Personal Information\
+        \n\n\
+         --\
+        \n\n\
+        Dear Starbucks Data Protection Team,\
         \n\n\
         I trust this message finds you well. I am writing to formally request the deletion of the personal information that Starbucks has collected, as outlined in your data collection policy. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
         \n\n\
@@ -86,7 +104,13 @@ export const templates = [
     },
     {
         name: "Tesla",
-        message: "Dear Tesla Data Protection Team,\
+        message: 
+        "Email To: privacy@tesla.com\n\
+        Subject: Formal Request for Deletion of Personal Information\
+        \n\n\
+         --\
+        \n\n\
+        Dear Tesla Data Protection Team,\
         \n\n\
         I trust this message finds you well. I am writing to formally request the deletion of the personal information that Tesla has collected, as outlined in your data collection policy. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
         \n\n\
@@ -119,7 +143,13 @@ export const templates = [
     },
     {
         name: "Tim Hortons",
-        message: "Dear Tim Hortons Data Protection Team,\
+        message: 
+        "Email To: privacy@timhortons.com\n\
+        Subject: Formal Request for Deletion of Personal Information\
+        \n\n\
+         --\
+        \n\n\
+        Dear Tim Hortons Data Protection Team,\
         \n\n\
         I trust this message finds you well. I am writing to formally request the deletion of the personal information that Tim Hortons has collected, as outlined in your data collection policy. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
         \n\n\
