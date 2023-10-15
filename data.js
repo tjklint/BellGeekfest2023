@@ -23,7 +23,7 @@ export const templates = [
         Thank you for your attention to this matter, and I appreciate your assistance in this regard\.\
         \n\n\
         Sincerely\,\n\
-        [Full_Name] [Email_Address]",
+        [Full_Name], [Email_Address]",
         keys: ["[Email_Address]", "[Spotify_Account_Id]", "[Spotify_Username]", "[Full_Name]"],
         fieldNames: ["Email Address", "Spotify Account Id", "Spotify Username", "Full Name"],
     },
@@ -50,8 +50,38 @@ export const templates = [
         Thank you for your attention to this matter.\
         \n\n\
         Sincerely,\
-        [Full_Name] [Email_Address]",
+        [Full_Name], [Email_Address]",
         keys: ["[Account_Id]", "[Full_Name]", "[Email_Address]"],
         fieldNames: ["Account Id", "Full Name", "Email Address"],
+    },
+    {
+        name: "Starbucks",
+        message: "Dear Starbucks Data Protection Team,\
+        \n\n\
+        I trust this message finds you well. I am writing to formally request the deletion of the personal information that Starbucks has collected, as outlined in your data collection policy. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
+        \n\n\
+        The categories of personal information I am requesting for deletion are as follows:\n\
+        - Identifiers\n\
+        - Financial Information\n\
+        - Commercial Information\n\
+        - Electronic Network Activity Information\n\
+        - Geolocation Information\n\
+        - Audio and Visual Information\n\
+        - Inferences\n\
+        \n\n\
+        I request that you delete this information in compliance with your data collection policy and in accordance with relevant data protection regulations. This request entails the complete and irreversible removal of the specified personal information from your records, including any third-party entities with whom you may have shared such data. My account ID and phone number are as follows: [Account_Id] and [Phone_Number]\
+        \n\n\
+        Furthermore, I emphasize the importance of adhering to the appropriate legal and ethical standards to safeguard my privacy. As per data protection regulations, you are hereby notified that you have 45 days from the date of this communication to comply with this request.\
+        \n\n\
+        I anticipate your prompt response to confirm that my request for data deletion is in progress, and I look forward to receiving formal notification once the process has been successfully executed.\
+        \n\n\
+        Please consider this request as a formal and legally binding request to delete my personal information, and I trust that Starbucks will handle this matter with the utmost professionalism.\
+        \n\n\
+        Thank you for your attention to this matter.\
+        \n\n\
+        Sincerely,\n\
+        [Full_Name], [Email_Address]",
+        keys: ["[Account_Id]", "[Phone_Number]", "[Full_Name]", "[Email_Address]"],
+        fieldNames: ["Account Id", "Phone Number", "Full Name", "Email Address"],
     }
 ];
