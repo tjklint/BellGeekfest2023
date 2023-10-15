@@ -6,7 +6,7 @@ body {
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
-  background-image: linear-gradient(#452d01, #de9307, #ffa600);
+  background-image: linear-gradient(#452d01, #9d6703, #d88d00);
   background-attachment: fixed;
 }
 
@@ -157,7 +157,6 @@ footer {
 .dropdown{
   display:flex;
   justify-content: center;
-  height: 35px;
   padding: 10px;
 }
 
@@ -196,6 +195,10 @@ li a {
   color: #3366CC;
 }
 
+nav a {
+  text-decoration: none;
+  color: white;
+}
 li a:hover {
   text-decoration: none;
   color: black;
@@ -224,4 +227,18 @@ li a:hover {
   flex-direction: column;
   align-items: center;
   margin-bottom: 5%;
+}
+
+#emailBody{
+  padding: 5%;
+  padding-bottom: 1%;
+}
+
+select{
+  font-size: 110%;
+  width: 50%;
+}
+
+#socials {
+  min-width: 15%;
 }
