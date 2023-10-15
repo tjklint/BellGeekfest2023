@@ -113,6 +113,12 @@ footer {
   margin-top:5%;
 }
 
+#privacyPolicy {
+  padding-left: 50px; 
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+
 .imageAndBlurbContainer{
   display:flex; 
   justify-content: center; 
