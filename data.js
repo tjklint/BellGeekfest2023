@@ -23,7 +23,7 @@ export const templates = [
         Thank you for your attention to this matter, and I appreciate your assistance in this regard\.\
         \n\n\
         Sincerely\,\n\
-        [Full_Name] [Email_Address]",
+        [Full_Name], [Email_Address]",
         keys: ["[Email_Address]", "[Spotify_Account_Id]", "[Spotify_Username]", "[Full_Name]"],
         fieldNames: ["Email Address", "Spotify Account Id", "Spotify Username", "Full Name"],
     },
@@ -50,8 +50,100 @@ export const templates = [
         Thank you for your attention to this matter.\
         \n\n\
         Sincerely,\
-        [Full_Name] [Email_Address]",
+        [Full_Name], [Email_Address]",
         keys: ["[Account_Id]", "[Full_Name]", "[Email_Address]"],
         fieldNames: ["Account Id", "Full Name", "Email Address"],
+    },
+    {
+        name: "Starbucks",
+        message: "Dear Starbucks Data Protection Team,\
+        \n\n\
+        I trust this message finds you well. I am writing to formally request the deletion of the personal information that Starbucks has collected, as outlined in your data collection policy. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
+        \n\n\
+        The categories of personal information I am requesting for deletion are as follows:\n\
+        - Identifiers\n\
+        - Financial Information\n\
+        - Commercial Information\n\
+        - Electronic Network Activity Information\n\
+        - Geolocation Information\n\
+        - Audio and Visual Information\n\
+        - Inferences\n\
+        \n\n\
+        I request that you delete this information in compliance with your data collection policy and in accordance with relevant data protection regulations. This request entails the complete and irreversible removal of the specified personal information from your records, including any third-party entities with whom you may have shared such data. My account ID and phone number are as follows: [Account_Id] and [Phone_Number]\
+        \n\n\
+        Furthermore, I emphasize the importance of adhering to the appropriate legal and ethical standards to safeguard my privacy. As per data protection regulations, you are hereby notified that you have 45 days from the date of this communication to comply with this request.\
+        \n\n\
+        I anticipate your prompt response to confirm that my request for data deletion is in progress, and I look forward to receiving formal notification once the process has been successfully executed.\
+        \n\n\
+        Please consider this request as a formal and legally binding request to delete my personal information, and I trust that Starbucks will handle this matter with the utmost professionalism.\
+        \n\n\
+        Thank you for your attention to this matter.\
+        \n\n\
+        Sincerely,\n\
+        [Full_Name], [Email_Address]",
+        keys: ["[Account_Id]", "[Phone_Number]", "[Full_Name]", "[Email_Address]"],
+        fieldNames: ["Account Id", "Phone Number", "Full Name", "Email Address"],
+    },
+    {
+        name: "Tesla",
+        message: "Dear Tesla Data Protection Team,\
+        \n\n\
+        I trust this message finds you well. I am writing to formally request the deletion of the personal information that Tesla has collected, as outlined in your data collection policy. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
+        \n\n\
+        The categories of personal information I am requesting for deletion are as follows:\
+        \n\
+        Information from or about me, which may include personal identifiers such as my name, contact information, and demographic details.\
+        \n\
+        - Information from or about your Tesla vehicle, encompassing data related to my vehicle's performance, usage, and maintenance.\
+        \n\
+        - Information from or about my Tesla energy products, including data related to the performance and usage of energy products.\
+        \n\
+        - Information about geolocation, such as data derived from your vehicle's GPS and location-based information.\
+        \n\
+        - Payment Information, comprising financial data related to transactions and purchases made with Tesla.\
+        \n\n\
+        I request that you delete this information in compliance with your data collection policy and in accordance with relevant data protection regulations. This request entails the complete and irreversible removal of the specified personal information from your records, including any third-party entities with whom you may have shared such data. My account ID is as follow: [Account_Id]\
+        \n\n\
+        Furthermore, I emphasize the importance of adhering to the appropriate legal and ethical standards to safeguard my privacy. As per data protection regulations, you are hereby notified that you have 45 days from the date of this communication to comply with this request.\
+        \n\n\
+        I anticipate your prompt response to confirm that my request for data deletion is in progress, and I look forward to receiving formal notification once the process has been successfully executed.\
+        \n\n\
+        Please consider this request as a formal and legally binding request to delete my personal information, and I trust that Tesla will handle this matter with the utmost professionalism.\
+        \n\n\
+        Thank you for your attention to this matter.\
+        \n\n\
+        Sincerely,\n\
+        [Full_Name], [Email_Address]",
+        keys: ["[Account_Id]", "[Full_Name]", "[Email_Address]"],
+        fieldNames: ["Account Id", "Full Name", "Email Address"],
+    },
+    {
+        name: "Tim Hortons",
+        message: "Dear Tim Hortons Data Protection Team,\
+        \n\n\
+        I trust this message finds you well. I am writing to formally request the deletion of the personal information that Tim Hortons has collected, as outlined in your data collection policy. In accordance with applicable data protection regulations, I wish to exercise my right to have my data removed from your records.\
+        \n\n\
+        The categories of personal information I am requesting for deletion are as follows:\
+        \n\
+        - Device Information - Including hardware model, IP address, unique device identifiers, operating system version, and device settings used to access Tim Hortons services.\
+        \n\
+        - Usage Information - Encompassing details about the services used, time and duration of use, specific portions of the App or website accessed, frequency of usage, clicks on links and materials, email interactions, purchases resulting from advertising, search terms, and other interactions with Tim Hortons content, including information stored in cookies and similar technologies.\
+        \n\
+        Location Information - Involving computer IP addresses, general location (e.g., city/town/province/country), and mobile device GPS-based location, which is used for finding local restaurants, providing relevant offers and deals, and delivering location-related information.\
+        \n\n\
+        I request that you delete this information in compliance with your data collection policy and in accordance with relevant data protection regulations. This request entails the complete and irreversible removal of the specified personal information from your records, including any third-party entities with whom you may have shared such data. The phone number linked with my account is as follows: [Phone_Number]\
+        \n\n\
+        Furthermore, I emphasize the importance of adhering to the appropriate legal and ethical standards to safeguard my privacy. As per data protection regulations, you are hereby notified that you have 45 days from the date of this communication to comply with this request.\
+        \n\n\
+        I anticipate your prompt response to confirm that my request for data deletion is in progress, and I look forward to receiving formal notification once the process has been successfully executed.\
+        \n\n\
+        Please consider this request as a formal and legally binding request to delete my personal information, and I trust that Tim Hortons will handle this matter with the utmost professionalism.\
+        \n\n\
+        Thank you for your attention to this matter.\
+        \n\n\
+        Sincerely,\n\
+        [Full_Name], [Email_Address]",
+        keys: ["[Phone_Number]", "[Full_Name]", "[Email_Address]"],
+        fieldNames: ["Phone Number", "Full Name", "Email Address"],
     }
 ];
