@@ -15,7 +15,7 @@ Currently, we only support 5 companies, but we have made it really easy for othe
 
 To run this project, clone the repo and run it with the local server extension on VSCode.
 
-- __DataEraseX:__ This feature allows you to select a company, and enter in only the required information, simply click enter and an email will be formatted, alongside a subject and email of the company you need to send it to. 
+- __DataEraseX:__ This feature allows you to select a company, and enter in only the required information. Simply click enter and an email will be formatted, alongside a subject and email of the company you need to send it to. 
 
 <img height="300" width="auto" alt="DataEraseX Demo" src="https://github.com/tjklint/BellGeekfest2023/blob/main/Images/DataEraseX.gif?raw=true">
 
