@@ -43,5 +43,5 @@ name: "Spotify",
         fieldNames: ["Email Address", "Spotify Account Id", "Spotify Username", "Full Name"],
 ```
 
-> Note: It's can be very difficult to find the required emails of certain companies, and what information they collect and can delete. It's important to thoroughly review these privacy policies.
+> Note: It can be very difficult to find the required emails of certain companies, and what information they collect and can delete. It's important to thoroughly review these privacy policies.
 
